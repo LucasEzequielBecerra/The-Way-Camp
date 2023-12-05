@@ -66,7 +66,7 @@ export const CupIcon = () => (
 )
 
 export const CartIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="38" height="33" viewBox="0 0 38 33" stroke="#3C2B2B">
+  <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 38 33" stroke="#3C2B2B">
     <path d="M2 2H7.94876C8.43406 2 8.84931 2.34844 8.93357 2.82637L12.521 23.1736C12.6052 23.6516 13.0205 24 13.5058 24H34" stroke="#3C2B2B" strokeWidth="3.7" strokeLinecap="round" strokeLinejoin="round"/>
     <path d="M35.847 5H11.237C10.6003 5 10.1258 5.58702 10.2592 6.20953L12.8306 18.2095C12.9294 18.6706 13.3369 19 13.8084 19H34.1327C34.6304 19 35.0523 18.6341 35.1227 18.1414L36.8369 6.14142C36.923 5.53899 36.4555 5 35.847 5Z" fill="#3C2B2B" stroke="#3C2B2B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
     <circle cx="15.1665" cy="30.3125" r="2.5" fill="#3C2B2B"/>
@@ -75,7 +75,7 @@ export const CartIcon = () => (
 )
 
 export const UserIcon = () => (
-  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg width="45" height="45" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
     <circle cx="25" cy="25" r="24.5" fill="#3C2B2B" fillOpacity="0.29" stroke="#3C2B2B"/>
     <ellipse cx="25" cy="10.5" rx="6" ry="5.5" fill="#3C2B2B"/>
     <path d="M39 37C33.2069 21.3657 22.1034 3.49796 11 37H39Z" fill="#3C2B2B" stroke="#3C2B2B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

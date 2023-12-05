@@ -7,13 +7,13 @@ const Header = () => {
         <div>
           <button className='w-[187px] h-[57px] rounded-full bg-light-orange text-white text-2xl text-normal'>New here?</button>
         </div>
-        <div className='absolute right-1/2 top-10'>
+        <div className='absolute right-1/2 top-10 transform translate-x-1/2'>
           <picture className=''>
             <img src="logo.png" alt="camp logo" />
           </picture>
         </div>
-        <div className='flex w-auto'>
-          <input type="text" className='rounded-full bg-inherit border-[1px] border-brown'/>
+        <div className='flex items-center flex-end gap-4'>
+          <input type="text" className='rounded-full bg-inherit border-[1px] border-brown h-12 pr-10 mr-auto'/>
           <CartIcon/>
           <UserIcon/>
         </div>
