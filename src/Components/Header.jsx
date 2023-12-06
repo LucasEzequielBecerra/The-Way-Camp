@@ -3,7 +3,7 @@ import { CartIcon, UserIcon } from '../svg-icons/icons'
 const Header = () => {
   return (
     <header className=''>
-      <div className='flex justify-between items-center min-h-[100px] px-10 '>
+      <nav className='flex justify-between items-center min-h-[110px] px-10 '>
         <div>
           <button className='w-[187px] h-[57px] rounded-full bg-light-orange text-white text-2xl text-normal'>New here?</button>
         </div>
@@ -17,9 +17,29 @@ const Header = () => {
           <CartIcon/>
           <UserIcon/>
         </div>
-      </div>
+      </nav>
+      <nav className='flex mt-8 w-full items-center justify-center '>
+        <ul className='flex w-5/12 justify-around text-brown'>
+          <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white'>
+            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}>ABOUT US</a>
+          </li>
+          <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white' style={{ transition: 'background 0.5s ease' }}>
+            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#">PURPOSE</a>
+          </li>
+          <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white'>
+            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#">SUMMER 24`</a>
+          </li>
+          <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white'>
+            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#">FQ&A`S</a>
+          </li>
+          <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white'>
+            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#">STORE</a>
+          </li>
+        </ul>
+      </nav>
     </header>
   )
 }
+// bg-[url(/tablon2.png)] bg-cover bg-no-repeat text-white
 
 export default Header
