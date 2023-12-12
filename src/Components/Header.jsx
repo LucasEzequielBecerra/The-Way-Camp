@@ -14,14 +14,18 @@ const Header = () => {
         </div>
         <div className='flex items-center flex-end gap-4'>
           <input type="text" className='rounded-full bg-inherit border-[1px] border-brown h-12 pr-10 mr-auto'/>
-          <CartIcon/>
-          <UserIcon/>
+          <button>
+            <CartIcon/>
+          </button>
+          <button>
+            <UserIcon/>
+          </button>
         </div>
       </nav>
       <nav className='flex mt-8 w-full items-center justify-center '>
         <ul className='flex w-5/12 justify-around text-brown'>
           <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white'>
-            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}>ABOUT US</a>
+            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#">ABOUT US</a>
           </li>
           <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white' style={{ transition: 'background 0.5s ease' }}>
             <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#">PURPOSE</a>
@@ -40,6 +44,5 @@ const Header = () => {
     </header>
   )
 }
-// bg-[url(/tablon2.png)] bg-cover bg-no-repeat text-white
 
 export default Header
