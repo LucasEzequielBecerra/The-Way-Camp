@@ -7,7 +7,7 @@ import Purpose from './Components/Purpose'
 
 function App () {
   return (
-    <div className=''>
+    <div className='scroll-smooth'>
       <Header />
       <Home/>
       <AboutUs/>

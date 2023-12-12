@@ -25,19 +25,19 @@ const Header = () => {
       <nav className='flex mt-8 w-full items-center justify-center '>
         <ul className='flex w-5/12 justify-around text-brown'>
           <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white'>
-            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#">ABOUT US</a>
+            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#aboutUs">ABOUT US</a>
           </li>
           <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white' style={{ transition: 'background 0.5s ease' }}>
-            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#">PURPOSE</a>
+            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#purpose">PURPOSE</a>
           </li>
           <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white'>
-            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#">SUMMER 24`</a>
+            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#buyTicket">SUMMER 24`</a>
           </li>
           <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white'>
-            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#">FQ&A`S</a>
+            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#fqa">FQ&A`S</a>
           </li>
           <li className='transition-all duration-500  hover:bg-[url(/tablon2.png)] hover:bg-cover hover:bg-no-repeat hover:text-white'>
-            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#">STORE</a>
+            <a className='inline-flex items-center justify-center  text-lg  w-[200px] h-[110px]' style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} href="#store">STORE</a>
           </li>
         </ul>
       </nav>

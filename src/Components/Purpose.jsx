@@ -1,12 +1,12 @@
 const Purpose = () => {
   return (
-    <section className="mt-10">
+    <section id="purpose" className="mt-10">
       <div className="w-full relative h-[390px] ">
         <picture className="absolute  z-10">
           <img className="w-full " src="./tablon-pics.png" alt="" />
         </picture>
       </div>
-      <div className="bg-pink">
+      <div className="bg-pink ">
         <div className=" flex justify-center">
           <picture className="z-0">
             <img src="./cartel-purpose.png" alt="" />

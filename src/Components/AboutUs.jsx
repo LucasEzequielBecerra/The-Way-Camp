@@ -1,6 +1,6 @@
 const AboutUs = () => {
   return (
-    <section className="relative">
+    <section id="aboutUs" className="relative">
       <div className="flex flex-col gap-10">
         <div className="h-[200px]">
           <picture className="absolute left-1/2 -translate-x-1/2">
