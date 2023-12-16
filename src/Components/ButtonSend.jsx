@@ -5,12 +5,11 @@ export const SendButton = () => {
   const [isSuccess, setIsSuccess] = useState(false);
 
   const handleClick = () => {
-    // Simulamos una llamada asíncrona
     setIsLoading(true);
     setTimeout(() => {
       setIsLoading(false);
       setIsSuccess(true);
-    }, 1500); // Ajusta el tiempo según tus necesidades
+    }, 1500);
   };
 
   return (

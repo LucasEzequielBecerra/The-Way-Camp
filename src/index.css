@@ -9,8 +9,12 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+
+}
+
 body {
     background-color: #FFEFDF;
     font-family: 'Bowlby One SC', sans-serif;
-    scroll-behavior: smooth;
 }
