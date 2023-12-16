@@ -13,10 +13,13 @@ export default {
         brown: '#3C2B2B'
       },
       boxShadow: {
-        '3xl': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'
+        '3xl': '0px 6px 4px 0px rgba(255, 85, 0, 0.50);'
       },
       fontFamily: {
         body: ['Donegal One']
+      },
+      fontSize: {
+        xs: '0.5rem'
       }
     }
   },

@@ -14,7 +14,9 @@ module.exports = {
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
+      
     ],
-    'indent': ['error', 2]
+    'indent': ['error', 2],
+    'react/prop-types': false
   },
 }

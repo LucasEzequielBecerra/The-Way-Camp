@@ -81,3 +81,12 @@ export const UserIcon = () => (
     <path d="M39 37C33.2069 21.3657 22.1034 3.49796 11 37H39Z" fill="#3C2B2B" stroke="#3C2B2B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
   </svg>
 )
+
+export const EmailIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="27" height="18" viewBox="0 0 27 18" fill="none">
+    <rect x="4.54248" y="3.875" width="18.25" height="13.25" rx="2.125" stroke="#FF5500" strokeWidth="1.75"/>
+    <path d="M14.1585 11.5826C13.8766 11.8267 13.4583 11.8267 13.1765 11.5826L5.9415 5.31695C5.41657 4.86235 5.73807 4 6.43249 4L20.9025 4C21.5969 4 21.9184 4.86235 21.3935 5.31695L14.1585 11.5826Z" stroke="#FF5500" strokeWidth="1.5"/>
+    <path d="M10.6675 10L5.66748 16" stroke="#FF5500" strokeWidth="1.5"/>
+    <path d="M16.6675 10L21.6675 16" stroke="#FF5500" strokeWidth="1.5"/>
+  </svg>
+)
