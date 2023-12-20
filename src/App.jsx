@@ -5,18 +5,18 @@ import Summer from './Components/Summer'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Home from './Components/Home'
-import Purpose from './Components/Purpose'  
+import Purpose from './Components/Purpose'
 
 function App () {
   return (
     <div>
       <Header />
-      <Home/>
-      <AboutUs/>
-      <Purpose/>
-      <Summer/>
-      <Footer/>
-    <ButtonToTop/>
+      <Home />
+      <AboutUs />
+      <Purpose />
+      <Summer />
+      <Footer />
+      <ButtonToTop />
     </div>
   )
 }
