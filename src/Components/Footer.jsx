@@ -1,5 +1,5 @@
 import { EmailIcon } from '../svg-icons/icons'
-import  {SendButton}  from './ButtonSend'
+import { SendButton } from './ButtonSend'
 
 const Footer = () => {
   return (
@@ -12,9 +12,15 @@ const Footer = () => {
             <img src="./text-ballon.png" alt="text-ballon-image" />
           </picture>
           <div className="flex justify-center gap-5">
-            <img src="./instagram-logo.png" alt="instagram-logo" />
-            <img src="./tiktok-logo.png" alt="tiktok-logo" />
-            <img src="./twitter-logo.png" alt="twitter-logo" />
+            <a target='_blank' href="https://www.instagram.com/jesussummercamp/" rel="noreferrer">
+              <img src="./instagram-logo.png" alt="instagram-logo" />
+            </a>
+            <a target='_blank' href="#">
+              <img src="./tiktok-logo.png" alt="tiktok-logo" />
+            </a>
+            <a target='_blank' href="#">
+              <img src="./twitter-logo.png" alt="twitter-logo" />
+            </a>
           </div>
           <div className="flex justify-center mt-3">
             <p className="font-bold">12-3456-7890</p>
@@ -58,7 +64,7 @@ const Footer = () => {
               <li>SEND US A MESSAGE</li>
             </ul>
           </div>
-          <span className='absolute bottom-0 right-10'><img src="./simplified-logo.png" alt="simplified-logo" /></span>
+          <a href='#header' className='absolute bottom-0 right-10'><img src="./simplified-logo.png" alt="simplified-logo" /></a>
         </div>
       </div>
     </footer>
