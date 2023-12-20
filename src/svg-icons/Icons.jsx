@@ -90,3 +90,10 @@ export const EmailIcon = () => (
     <path d="M16.6675 10L21.6675 16" stroke="#FF5500" strokeWidth="1.5"/>
   </svg>
 )
+
+export const ButtonToTopIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="61" height="60" viewBox="0 0 61 60" fill="none">
+    <ellipse cx="30.225" cy="29.844" rx="30.225" ry="29.844" fill="#FB8C21"/>
+    <path d="M29.8816 13.6406L47.8306 43.0583L29.8817 34.1051L11.9326 43.0583L29.8816 13.6406Z" fill="#FFEFDF"/>
+  </svg>
+)

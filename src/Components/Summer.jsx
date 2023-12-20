@@ -1,6 +1,7 @@
-const BuyTicket = () => {
+const Summer = () => {
   return (
-    <section id="buyTicket" className="bg-pink pt-10 relative ">
+    <section id="buyTicket" className=" bg-gradient-to-b from-pink to-white to-65% pt-10 mb-24 ">
+      <div className="relative">
       <picture>
         <img src="./bg-icons.png" alt="" />
       </picture>
@@ -18,9 +19,18 @@ const BuyTicket = () => {
           </div>
         </div>
       </div>
-
+      </div>
+      <div className="flex mt-24 w-full justify-center gap-44">
+        <div className="flex flex-col gap-24">
+          <img src="./tell-us.png" alt="tell-us-image" />
+          <img src="./player.png" alt="player-image" />
+        </div>
+        <div className="mt-10">
+          <img src="./comments.png" alt="comments-image" />
+        </div>
+      </div>
     </section>
   )
 }
 
-export default BuyTicket
+export default Summer

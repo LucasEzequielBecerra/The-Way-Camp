@@ -9,12 +9,12 @@ const Footer = () => {
         <div className="flex-1 flex flex-col justify-center  relative">
           <div className='h-3/4 bg-orange absolute right-0 w-[2px]'></div>
           <picture className="flex justify-center">
-            <img src="./text-ballon.png" alt="" />
+            <img src="./text-ballon.png" alt="text-ballon-image" />
           </picture>
           <div className="flex justify-center gap-5">
-            <img src="./instagram-logo.png" alt="" />
-            <img src="./tiktok-logo.png" alt="" />
-            <img src="./twitter-logo.png" alt="" />
+            <img src="./instagram-logo.png" alt="instagram-logo" />
+            <img src="./tiktok-logo.png" alt="tiktok-logo" />
+            <img src="./twitter-logo.png" alt="twitter-logo" />
           </div>
           <div className="flex justify-center mt-3">
             <p className="font-bold">12-3456-7890</p>
@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="flex-1 flex flex-col items-center justify-center p-5 relative">
           <div className='h-3/4 bg-orange absolute right-0 w-[2px]'></div>
           <div className="text-center mb-5">
-            <img src="./u-want-updates.png" alt="" />
+            <img src="./u-want-updates.png" alt="u-want-updates-image" />
             <p>leave us here your info!</p>
           </div>
           <form action="submit">
@@ -58,7 +58,7 @@ const Footer = () => {
               <li>SEND US A MESSAGE</li>
             </ul>
           </div>
-          <span className='absolute bottom-0 right-10'><img src="./simplified-logo.png" alt="" /></span>
+          <span className='absolute bottom-0 right-10'><img src="./simplified-logo.png" alt="simplified-logo" /></span>
         </div>
       </div>
     </footer>

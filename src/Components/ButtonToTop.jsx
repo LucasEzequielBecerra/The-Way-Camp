@@ -1,4 +1,5 @@
 import  {  useEffect, useState } from 'react'
+import { ButtonToTopIcon } from '../svg-icons/icons'
 
 const ButtonToTop = () => {
     const [appear, setAppear] = useState(false)
@@ -29,7 +30,9 @@ const ButtonToTop = () => {
     }
     
   return (
-    <button onClick={scrollToTop} className={`bg-orange w-14 h-14 rounded-full fixed right-14 z-10 bottom-24 text-3xl ${appear ?'opacity-100' :'opacity-0'}`}>^</button>
+    <button onClick={scrollToTop} className={`rounded-full fixed right-12 z-10 bottom-24 text-3xl ${appear ?'opacity-100' :'opacity-0'}`}>
+        <ButtonToTopIcon/>
+    </button>
   )
 }
 

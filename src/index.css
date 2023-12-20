@@ -15,6 +15,12 @@ html {
 }
 
 body {
+    width: 100vw;
     background-color: #FFEFDF;
     font-family: 'Bowlby One SC', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+
 }

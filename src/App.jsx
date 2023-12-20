@@ -1,11 +1,11 @@
 import './App.css'
 import AboutUs from './Components/AboutUs'
 import ButtonToTop from './Components/ButtonToTop'
-import BuyTicket from './Components/BuyTicket'
+import Summer from './Components/Summer'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Home from './Components/Home'
-import Purpose from './Components/Purpose'
+import Purpose from './Components/Purpose'  
 
 function App () {
   return (
@@ -14,9 +14,9 @@ function App () {
       <Home/>
       <AboutUs/>
       <Purpose/>
-      <BuyTicket/>
+      <Summer/>
       <Footer/>
-      <ButtonToTop/>
+    <ButtonToTop/>
     </div>
   )
 }

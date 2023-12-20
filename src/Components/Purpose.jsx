@@ -3,13 +3,13 @@ const Purpose = () => {
     <section id="purpose" className="mt-10">
       <div className="w-full relative h-[390px] ">
         <picture className="absolute  z-10">
-          <img className="w-full " src="./tablon-pics.png" alt="" />
+          <img className="w-full " src="./tablon-pics.png" alt="tablon-pics-image" />
         </picture>
       </div>
       <div className="bg-pink ">
         <div className=" flex justify-center">
           <picture className="z-0">
-            <img src="./cartel-purpose.png" alt="" />
+            <img src="./cartel-purpose.png" alt="cartel-purpose-image" />
           </picture>
         </div>
         <div className="mt-24 text-center font-body w-1/2 m-auto flex flex-col gap-5 text-xl text-black">

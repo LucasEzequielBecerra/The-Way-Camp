@@ -14,7 +14,7 @@ const AboutUs = () => {
           <p>Teaching a way that´s the only one who could ever save and change lives for good... Bringing love, hope, freedom, future, healing, joy and peace... </p>
           <p>A summer sharing with others, making friends, learning about the Bible and having fun in a healthy and safe way.</p>
           <p>Our camp is Settle in Toronto, Canada. Soon we´ll be opening another location in the US.</p>
-          <span className="flex justify-center"><img src="./are-you-join-us.png" alt="" /></span>
+          <span className="flex justify-center"><img src="./are-you-join-us.png" alt="are-you-join-us-image" /></span>
         </div>
       </div>
     </section>
