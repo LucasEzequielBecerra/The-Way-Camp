@@ -6,10 +6,12 @@ import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Home from './Components/Home'
 import Purpose from './Components/Purpose'
+import Register from './Components/Register'
 
 function App () {
   return (
-    <div>
+    <div className='relative'>
+      <Register/>
       <Header />
       <Home />
       <AboutUs />

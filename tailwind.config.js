@@ -20,7 +20,7 @@ export default {
       },
       fontSize: {
         xs: '0.5rem'
-      },
+      }
     }
   },
   plugins: []
