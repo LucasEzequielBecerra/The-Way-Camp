@@ -1,11 +1,11 @@
 import { CartIcon, UserIcon } from '../svg-icons/icons'
 
-const Header = () => {
+const Header = ({ setRegisterVisible, registerVisible }) => {
   return (
     <header id='header' >
       <nav className='flex justify-between items-center min-h-[110px] px-10 '>
         <div>
-          <button className='w-[187px] h-[57px] rounded-full bg-light-orange text-white text-2xl text-normal'>New here?</button>
+          <button onClick={() => setRegisterVisible(!registerVisible)} className='w-[187px] h-[57px] rounded-full bg-light-orange text-white text-2xl text-normal'>New here?</button>
         </div>
         <div className='absolute right-1/2 top-10 transform translate-x-1/2'>
           <picture >

@@ -7,12 +7,18 @@ import Header from './Components/Header'
 import Home from './Components/Home'
 import Purpose from './Components/Purpose'
 import Register from './Components/Register'
+import { useEffect, useState } from 'react'
 
 function App () {
+  const [registerVisible, setRegisterVisible] = useState(false)
+  useEffect(() => {
+    registerVisible &&
+    document.body.classList.add('overflow-hidden')
+  }, [registerVisible])
   return (
-    <div className='relative'>
-      <Register/>
-      <Header />
+    <div >
+      <Register registerVisible={registerVisible} setRegisterVisible={setRegisterVisible}/>
+      <Header registerVisible={registerVisible} setRegisterVisible={setRegisterVisible} />
       <Home />
       <AboutUs />
       <Purpose />
