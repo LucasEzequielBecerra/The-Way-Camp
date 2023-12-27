@@ -5,7 +5,7 @@ const Header = ({ setRegisterVisible, registerVisible }) => {
     <header id='header' >
       <nav className='flex justify-between items-center min-h-[110px] px-10 '>
         <div>
-          <button onClick={() => setRegisterVisible(!registerVisible)} className='w-[187px] h-[57px] rounded-full bg-light-orange text-white text-2xl text-normal'>New here?</button>
+          <button onClick={() => setRegisterVisible(!registerVisible)} className='w-[187px] h-[57px] rounded-full bg-light-orange text-white text-2xl tracking-wide '>New here?</button>
         </div>
         <div className='absolute right-1/2 top-10 transform translate-x-1/2'>
           <picture >

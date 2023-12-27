@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Donegal+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Donegal+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,7 +17,7 @@ html {
 body {
     width: 100vw;
     background-color: #FFEFDF;
-    font-family: 'Bowlby One SC', sans-serif;
+    font-family: 'Bowlby One', sans-serif;
 }
 
 ::-webkit-scrollbar {

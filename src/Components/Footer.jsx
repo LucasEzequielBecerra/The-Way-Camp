@@ -30,7 +30,7 @@ const Footer = () => {
           <div className='h-3/4 bg-orange absolute right-0 w-[2px]'></div>
           <div className="text-center mb-5">
             <img src="./u-want-updates.png" alt="u-want-updates-image" />
-            <p>leave us here your info!</p>
+            <p className='uppercase font-bold'>leave us here your info!</p>
           </div>
           <form action="submit">
             <div className="relative mb-4 ">
