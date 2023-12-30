@@ -1,4 +1,4 @@
-import { EmailIcon } from '../svg-icons/icons'
+import { EmailIcon } from '../svg-icons/Icons'
 import { SendButton } from './ButtonSend'
 
 const Footer = () => {
