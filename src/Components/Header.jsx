@@ -1,4 +1,4 @@
-import { CartIcon, UserIcon } from '../svg-icons/icons'
+import { CartIcon, UserIcon } from '../svg-icons/Icons'
 
 const Header = ({ setRegisterVisible, registerVisible }) => {
   return (
