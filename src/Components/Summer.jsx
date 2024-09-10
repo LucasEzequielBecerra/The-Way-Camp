@@ -20,13 +20,13 @@ const Summer = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-24 w-full justify-center gap-44">
-        <div className="flex flex-col gap-24">
+      <div className="flex mt-24 mx-6   justify-center gap-36">
+        <div className="flex flex-col  gap-24">
           <img src="./tell-us.png" alt="tell-us-image" />
           <img src="./player.png" alt="player-image" />
         </div>
-        <div className="mt-10">
-          <img src="./comments.png" alt="comments-image" />
+        <div className="mt-10 w-10/12 ">
+          <img className=" " src="./comments.png" alt="comments-image" />
         </div>
       </div>
     </section>
